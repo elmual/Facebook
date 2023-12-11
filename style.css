@@ -1,0 +1,107 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f0f2f5;
+    gap: 50px;
+    padding: 100px 0 150px 0;
+}
+.header2{
+    padding: 0px 0 20px 0;
+}
+.fb{
+    width: 320px;
+    height: 300px;
+    padding: 10px;
+}
+.loginbox{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #aaa;
+}
+.login2{
+    height:280px;
+    margin-bottom: 50px;
+}
+.signup{
+    height: 300px;
+    margin-bottom: 50px;
+}
+input{
+    width: 92%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #eee;
+    padding-left: 20px;
+}
+
+button{
+    width: 65%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #42b72a;
+    color: white;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#signup{
+    background-color: #42b72a;
+    width: 65%;
+    margin-left: 60px;
+}
+input[type=submit]{
+    margin-bottom: 10px;
+    color: white;
+    background-color: #1877f2;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+.forget{
+    margin-left: 90px;
+    text-decoration: none;
+    
+}
+.fbh1{
+    font-size: 50px;
+    color: #1877f2;
+}
+.fbh2{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+.fbp{
+    font-size: 25px;
+}
+.footer{
+    padding: 20px 100px;
+}
+.foot{
+    font-size: 12px;
+    color: #8a8d91;
+}
+@media (max-width: 600px){
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #eee;
+        gap: 10px;
+        padding: 0px 0 50px 0;
+    }
+    .fb{
+        width: 320px;
+        height: 230px;
+        padding: 10px;
+    }
+}
